@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="16dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/iconAccount"
+        android:layout_width="380dp"
+        android:layout_height="190dp"
+        android:contentDescription="Account icon"
+        android:src="@drawable/ic_accoun" />
+
+    <EditText
+        android:id="@+id/editUsername"
+        android:layout_width="377dp"
+        android:layout_height="65dp"
+        android:hint="@string/username2"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="378dp"
+        android:layout_height="63dp"
+        android:hint="@string/password2"
+        android:inputType="textPassword" />
+
+    <Button android:id="@+id/btnRegister"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="@string/register"/>
+
+</LinearLayout>

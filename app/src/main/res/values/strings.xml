@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ShoppingListApp</string>
+    <string name="product_name">Product name</string>
+    <string name="price">Price</string>
+    <string name="units">Units</string>
+    <string name="add_product">Add product</string>
+    <string name="undo_last_deleted">Undo last deleted</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign up</string>
+    <string name="list_name">List name</string>
+    <string name="add_list">Add list</string>
+    <string name="register">Register</string>
+    <string name="item">Item</string>
+    <string name="product">Product</string>
+    <string name="username2">Username</string>
+    <string name="password2">Password</string>
+    <string name="There_is_no_product_to_restore">There is no product to restore</string>
+    <string name="Complete_all_fields">Complete all fields</string>
+    <string name="Product_removed">Product removed</string>
+    <string name="Refurbished_product">Refurbished product</string>
+    <string name="Incorrect_credentials">Incorrect credentials</string>
+    <string name="Invalid_username_or_password">"Invalid username or password"</string>
+    <string name="Registration_successful">Registration successful</string>
+    <string name="The_user_already_exists">The user already exists</string>
+    <string name="Cannot_add_an_empty_list">Cannot add an empty list</string>
+    <string name="Open_list">Open list</string>
+    <string name="Delete_list">Delete list</string>
+    <string name="List_removed">List removed</string>
+</resources>

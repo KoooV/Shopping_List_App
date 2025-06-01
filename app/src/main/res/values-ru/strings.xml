@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShoppingListApp</string>
+    <string name="product_name">Название продукта</string>
+    <string name="price">Цена</string>
+    <string name="units">Единицы</string>
+    <string name="add_product">Добавить продукт</string>
+    <string name="undo_last_deleted">Отменить последнее удаление</string>
+    <string name="username" >Имя пользователя</string>
+    <string name="password">Пароль</string>
+    <string name="login">Логин</string>
+    <string name="don_t_have_an_account_sign_up">У вас нет учетной записи? Зарегистрироваться</string>
+    <string name="list_name">Имя списка</string>
+    <string name="add_list">Добавить список</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="item">Элемент</string>
+    <string name="product">Продукт</string>
+    <string name="username2">Имя пользователя</string>
+    <string name="password2">Пароль</string>
+    <string name="There_is_no_product_to_restore">Нет продукта для восстановления</string>
+    <string name="Complete_all_fields">Заполните все поля</string>
+    <string name="Product_removed">Продукт удален</string>
+    <string name="Refurbished_product">Восстановленный продукт</string>
+    <string name="Incorrect_credentials">Неправильные данные</string>
+    <string name="Invalid_username_or_password">"Неверное имя пользователя или пароль"</string>
+    <string name="Registration_successful">Регистрация прошла успешно</string>
+    <string name="The_user_already_exists">Пользователь уже существует</string>
+    <string name="Cannot_add_an_empty_list">Невозможно добавить пустой список</string>
+    <string name="Open_list">Открытый список</string>
+    <string name="Delete_list">Удалить список</string>
+    <string name="List_removed">Список удален</string>
+</resources>

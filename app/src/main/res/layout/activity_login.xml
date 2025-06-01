@@ -1,0 +1,58 @@
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:layout_editor_absoluteX="dp"
+    tools:layout_editor_absoluteY="0dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/iconAccount"
+        android:layout_width="380dp"
+        android:layout_height="190dp"
+        android:contentDescription="Account icon"
+        android:src="@drawable/ic_account" />
+
+    <EditText
+        android:id="@+id/editUsername"
+        android:layout_width="379dp"
+        android:layout_height="60dp"
+        android:hint="@string/username"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="376dp" />
+
+    <TextView
+        android:id="@+id/textRegisterLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="12dp"
+        android:text="@string/don_t_have_an_account_sign_up"
+        android:textColor="@android:color/holo_blue_dark"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+
+</LinearLayout>
+
