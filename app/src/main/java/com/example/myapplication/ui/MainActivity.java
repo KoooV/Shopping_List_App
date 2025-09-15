@@ -98,7 +98,7 @@ public class MainActivity extends Activity {
         while (cursor.moveToNext()) {
             HashMap<String, String> map = new HashMap<>();
             map.put("id", String.valueOf(cursor.getInt(0)));
-            map.put("name", cursor.getString(1));
+            map.put("title", cursor.getString(1));
             listCollection.add(map);
         }
         adapter = new SimpleAdapter(this, listCollection, R.layout.item_shopping_list,

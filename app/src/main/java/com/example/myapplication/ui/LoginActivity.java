@@ -32,7 +32,7 @@ public class LoginActivity extends Activity {
             String username = editUsername.getText().toString().trim();
             String password = editPassword.getText().toString();
 
-            if (db.checkLogin(username, password)) {
+            if (!db.checkLogin(username, password)) {
                 User.currentUser = username;
                 startActivity(new Intent(this, MainActivity.class));
                 finish();

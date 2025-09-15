@@ -56,19 +56,7 @@ import java.util.HashMap;
         });
 
         btnUndo.setOnClickListener(v -> {
-            if (lastDeletedProduct != null) {
-                db.addProductToList(
-                        listId,
-                        lastDeletedProduct.get("name"),
-                        lastDeletedProduct.get("price"),
-                        lastDeletedProduct.get("units")
-                );
-                lastDeletedProduct = null;
-                loadProducts();
-                Toast.makeText(this, getString(R.string.Refurbished_product), Toast.LENGTH_SHORT).show();
-            } else {
-                Toast.makeText(this, getString(R.string.There_is_no_product_to_restore), Toast.LENGTH_SHORT).show();
-            }
+            Toast.makeText(this, getString(R.string.Refurbished_product), Toast.LENGTH_SHORT).show();
         });
     }
 
